@@ -1,0 +1,33 @@
+# Local dependencies and generated outputs
+node_modules/
+dist/
+coverage/
+artifacts/
+*.log
+
+# Local settings, sessions, and private data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+uploads/
+data/
+backups/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+整理说明.md
