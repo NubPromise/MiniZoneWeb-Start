@@ -1,0 +1,15 @@
+{
+  "name": "minizone-web-start",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "MiniZone historical single-file web frontend",
+  "scripts": {
+    "preview": "node scripts/preview.cjs",
+    "check": "node scripts/check-open-source.cjs",
+    "check:release": "node scripts/check-open-source.cjs --release"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
